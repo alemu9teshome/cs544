@@ -2,20 +2,13 @@ package edu.miu.cs.cs544.service;
 
 import edu.miu.cs.cs544.domain.*;
 import edu.miu.cs.cs544.dto.*;
-import edu.miu.cs.cs544.dto.orders.PlaceOrderRequest;
-import edu.miu.cs.cs544.dto.orders.OrderResponse;
-import edu.miu.cs.cs544.dto.orders.StateChangeRequest;
-import edu.miu.cs.cs544.repository.AddressRepository;
+
 import edu.miu.cs.cs544.repository.CustomerRepository;
-import edu.miu.cs.cs544.repository.OrderRepository;
-import edu.miu.cs.cs544.repository.ProductRepository;
-import jakarta.persistence.EntityManager;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;

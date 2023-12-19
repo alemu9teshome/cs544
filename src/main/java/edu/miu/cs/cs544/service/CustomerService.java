@@ -21,22 +21,4 @@ public interface CustomerService {
     CustomerDto getCustomerByLastName(String lastName);
     CustomerDto removeCustomerById(Integer id);
 
-
-
-
-
-
-
-
-//    OrderResponse placeOrder(PlaceOrderRequest request);
-//
-//
-//    boolean isAvailable(int productId);
-//
-//    List<ProductResponse> listAllProduct(ListProductRequest request, boolean isAvailable);
-//
-//    boolean checkIn(StateChangeRequest request);
-//    boolean cancel(StateChangeRequest request);
-//    boolean checkOut(StateChangeRequest request);
-
 }
